@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Grodelivery</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <div class="logo-section">
+      <h1>🛒 Grodelivery</h1>
+      <p class="tagline">Fresh Groceries at Your Doorstep</p>
+    </div>
+    <div class="header-right">
+      <input type="text" class="search-box" placeholder="Search products...">
+      <a href="pages/cart.html" class="cart-link">🛒 Cart</a>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="Grodelivery.html" class="nav-link active">Shop</a>
+    <a href="#" class="nav-link">Categories</a>
+    <a href="#" class="nav-link">About</a>
+    <a href="#" class="nav-link">Contact</a>
+  </nav>
+</header>
+
+<div class="page-container">
+  <div class="sidebar">
+    <h3>Categories</h3>
+    <div class="category-filter">
+      <label><input type="checkbox" checked> Fruits & Veggies</label>
+      <label><input type="checkbox"> Dairy & Eggs</label>
+      <label><input type="checkbox"> Bakery</label>
+      <label><input type="checkbox"> Beverages</label>
+      <label><input type="checkbox"> Snacks</label>
+      <label><input type="checkbox"> Household</label>
+    </div>
+    <h3>Price Range</h3>
+    <div class="price-filter">
+      <input type="range" min="0" max="500" value="500">
+      <p>Up to KES 500</p>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="products-header">
+      <h2>Fresh Groceries</h2>
+      <select class="sort-select">
+        <option>Sort by: Popular</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+        <option>Newest First</option>
+      </select>
+    </div>
+
+    <div class="products">
+      <div class="card">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=180&h=200&fit=crop" alt="Fresh Apples">
+          <span class="badge">Fresh</span>
+        </div>
+        <h3>Fresh Apples</h3>
+        <p class="product-desc">Per 1kg</p>
+        <div class="rating">⭐ 4.5 (120 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 286</span>
+          <span class="original-price">KES 356</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="img/bread.webp" alt="Whole Wheat Bread">
+          <span class="badge sale">Sale</span>
+        </div>
+        <h3>Whole Wheat Bread</h3>
+        <p class="product-desc">500g loaf</p>
+        <div class="rating">⭐ 4.8 (89 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 132</span>
+          <span class="original-price">KES 176</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="img/Milk-Kenya-2.jpg" alt="Fresh Milk">
+          <span class="badge">Fresh</span>
+        </div>
+        <h3>Fresh Milk</h3>
+        <p class="product-desc">1L carton</p>
+        <div class="rating">⭐ 4.6 (156 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 165</span>
+          <span class="original-price">KES 198</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="img/bananas.png" alt="Fresh Bananas">
+          <span class="badge">Fresh</span>
+        </div>
+        <h3>Fresh Bananas</h3>
+        <p class="product-desc">Per 1kg</p>
+        <div class="rating">⭐ 4.7 (98 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 197</span>
+          <span class="original-price">KES 236</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=180&h=200&fit=crop" alt="Fresh Spinach">
+          <span class="badge">Fresh</span>
+        </div>
+        <h3>Fresh Spinach</h3>
+        <p class="product-desc">200g bunch</p>
+        <div class="rating">⭐ 4.4 (67 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 110</span>
+          <span class="original-price">KES 154</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="img/carrots.png" alt="Fresh Carrots">
+          <span class="badge">Fresh</span>
+        </div>
+        <h3>Fresh Carrots</h3>
+        <p class="product-desc">Per 1kg</p>
+        <div class="rating">⭐ 4.5 (112 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 154</span>
+          <span class="original-price">KES 185</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="img/mango-fruit-hanging-on-a-tree-with-a-rustic-wooden-table-free-photo.jpg" alt="Fresh Mangoes">
+          <span class="badge sale">Sale</span>
+        </div>
+        <h3>Mangoes</h3>
+        <p class="product-desc">Per 1kg</p>
+        <div class="rating">⭐ 4.9 (205 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 308</span>
+          <span class="original-price">KES 418</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="product-image">
+          <img src="img/yorghurts.webp" alt="Greek Yogurt">
+          <span class="badge">Fresh</span>
+        </div>
+        <h3>Greek Yogurt</h3>
+        <p class="product-desc">500g tub</p>
+        <div class="rating">⭐ 4.6 (145 reviews)</div>
+        <div class="price-section">
+          <span class="price">KES 220</span>
+          <span class="original-price">KES 264</span>
+        </div>
+        <button class="btn-add-cart">+ Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>About Grodelivery</h4>
+      <p>Your trusted grocery delivery partner in Nairobi kenya.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>Email: support@grodelivery.com</p>
+      <p>Phone: +254717316793/+254782297411</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Grodelivery. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
